@@ -22,5 +22,4 @@ final appTheme = ThemeData(
     foregroundColor: Colors.white,
     centerTitle: true,
   ),
-  // cardTheme intentionally omitted to avoid SDK compatibility issues
 );

@@ -91,7 +91,6 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
 
             const SizedBox(height: 12),
 
-            // Currency selection
             Row(
               children: [
                 const Text('Валюта: '),

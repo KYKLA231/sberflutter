@@ -28,7 +28,6 @@ class FinanceProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  /// Returns totals grouped by currency. Positive for income, negative for expenses.
   Map<String, double> get totalsByCurrency {
     final Map<String, double> map = {};
     for (var t in _transactions) {
@@ -38,7 +37,6 @@ class FinanceProvider extends ChangeNotifier {
   }
 
   double get balance {
-    // Fallback: show sum of RUB amounts only (if any). This keeps backward compatibility.
     double total = 0;
     for (var t in _transactions) {
       if (t.currency == 'RUB') {

@@ -87,7 +87,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               decoration: const InputDecoration(border: OutlineInputBorder()),
             ),
             const SizedBox(height: 12),
-            // Большая зелёная кнопка "Сохранить" (широкая, как на макете)
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
@@ -104,7 +103,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
 
             const SizedBox(height: 12),
 
-            // Кнопка входа под ней
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(
